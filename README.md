@@ -1,16 +1,107 @@
-# React + Vite
+# AI Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered resume builder designed to help users create professional, ATS-friendly resumes with modern templates and intelligent career assistance.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+AI Resume Builder is a web-based application that aims to simplify the resume creation process.
 
-## React Compiler
+Users will be able to create resumes using professional templates, manage their resume information, analyze their resumes with AI, and eventually tailor their resumes according to specific job descriptions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project is being developed as part of my M.Tech Web Technology project.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Resume Builder
+- Create and edit resume information
+- Structured resume sections
+- Professional resume layouts
+
+### Professional Templates
+- Modern resume template
+- Professional resume template
+- Creative resume template
+- Template selection from the landing page
+
+### AI-Powered Features
+- AI resume content generation
+- ATS resume analysis
+- Job matching
+- Skill gap analysis
+
+### Resume Management
+- Manage multiple resumes
+- Resume preview
+- PDF export
+
+> AI-powered features, backend integration, authentication, and PDF generation are planned as part of the upcoming development stages.
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- React Hook Form
+- Framer Motion
+- Lucide React
+
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+
+### Database
+- MySQL / PostgreSQL
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+
+## 📁 Project Structure
+
+```text
+ai-resume-builder/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   └── landing/
+│   │       ├── Navbar.jsx
+│   │       ├── Hero.jsx
+│   │       ├── Features.jsx
+│   │       ├── AIFeatures.jsx
+│   │       ├── Templates.jsx
+│   │       ├── Pricing.jsx
+│   │       ├── FAQ.jsx
+│   │       ├── Contact.jsx
+│   │       └── Footer.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── login/
+│   │   ├── register/
+│   │   ├── dashboard/
+│   │   ├── profile/
+│   │   ├── resumeBuilder/
+│   │   ├── resumePreview/
+│   │   └── templates/
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
